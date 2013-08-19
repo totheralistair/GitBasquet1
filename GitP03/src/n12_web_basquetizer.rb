@@ -7,17 +7,13 @@ class WebBasquetizer < Sinatra::Base
 
   get '/FRESH_DB' do
     myBasquet = Basquet.newPersistentBasquetPlease
-    out = "done"
-  end
-
-  get '/echoME' do
-    out = "echoME!"
+    out = myBasquet.size.to_s
   end
 
   get '/add/:newStuff' do
     theStuff = params[:newStuff]
     addedAt = myBasquet.add(theStuff)
-    out = "Request to add by GET '#{theStuff}'. Added at #{addedAt}"
+    out = "GET/add/#{theStuff}. Added at #{addedAt}"
   end
 
   get '/getAt/:location' do

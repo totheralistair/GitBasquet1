@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP03/.idea/GitP03.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP03/src/basquet.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/calc_cuc_steps.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP03/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP03/features/support/env.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/fruitiness_cuc_steps.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/fruits_to_JSON_cuc.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP03/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP03/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP03/src/n12_web_basquetizer.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP03/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP03/features/test1_cuc.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP03/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP03/features/step_definitions/web_cuc_steps.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP03/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP02\features\fruitiness.feature" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP02\features\step_definitions\cuc_fruitiness_steps.rb" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP02\features\step_definitions\cuc_web_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/webFruits_cuc_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP01/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" name="Default" comment="" />
     <ignored path="GitP02.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" time="1376922700425" ignored="false" />
@@ -459,7 +438,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1290" height="456" extended-state="1" />
+    <frame x="0" y="0" width="1290" height="456" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

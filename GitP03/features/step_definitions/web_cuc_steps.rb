@@ -2,34 +2,22 @@ require 'rack/test'
 
 When /^with a fresh Basquet$/ do
   get "/FRESH_DB"
-  last_response.body.should == "done"
+  last_response.body.should == "0"
 end
 
 When /^sending GET (.*) from the web client$/ do |requestpath|
   get(requestpath)
 end
 
-Then /^the server should reply "([^"]*)"$/ do |expectedResult|
-  raise('Alistair-forced failure!'+last_response.body) unless 5==5
-  last_response.body.should == expectedResult
+Then /^on 1st add, server put '(.+)' at location 0$/ do |stuff|
+  last_response.body.should == "GET/add/#{stuff}. Added at 0"
 end
 
-Then /^the server should have replied Request to add by GET 'item1' Added at 0$/ do
-  last_response.body.should == "Request to add by GET 'item1'. Added at 0"
+Then /^on 2nd add, server put '(.+)' at location 1$/ do |stuff|
+  last_response.body.should == "GET/add/#{stuff}. Added at 1"
 end
 
-Then /^the server should have added it at location (\d+)$/ do |locationAsString|
+Then /^fetching from (\d+) indeed produces '(.*)'$/ do |locationAsString, stuff|
   get '/getAt/' + locationAsString
-  last_response.body.should == "item1"
+  last_response.body.should == stuff
 end
-
-Then /^the server should have 2-replied: Request to add by GET 'item2' Added at 1$/ do
-  last_response.body.should == "Request to add by GET 'item2'. Added at 1"
-end
-
-Then /^the server should have item2 added at location (\d+)$/ do |locationAsString|
-  get '/getAt/' + locationAsString
-  last_response.body.should == "item2"
-end
-
- 1
