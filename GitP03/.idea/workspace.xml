@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" name="Default" comment="">
+    <list default="true" id="fdd42d47-2a47-472e-bce3-f5647ac95e8f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/GitP03.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/basquet.rb" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP02/features/step_definitions/calc_cuc_steps.rb" />
-      <change type="MOVED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP02\features\fruitiness.feature" afterPath="$PROJECT_DIR$/../GitP02/features/fruits_to_JSON_cuc.feature" />
-      <change type="MOVED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP02\features\step_definitions\cuc_fruitiness_steps.rb" afterPath="$PROJECT_DIR$/../GitP02/features/step_definitions/fruitiness_cuc_steps.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/support/env.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP02/features/step_definitions/fruitiness_cuc_steps.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP02/features/fruits_to_JSON_cuc.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/n12_web_basquetizer.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/test1_cuc.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/web_cuc_steps.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP02\features\fruitiness.feature" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP02\features\step_definitions\cuc_fruitiness_steps.rb" afterPath="" />
       <change type="MOVED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP02\features\step_definitions\cuc_web_steps.rb" afterPath="$PROJECT_DIR$/../GitP02/features/step_definitions/webFruits_cuc_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP01/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP02/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP02/.idea/workspace.xml" />
     </list>
-    <ignored path="GitP01.iws" />
+    <ignored path="GitP03.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376920567269" ignored="false" />
-    <file path="/n10_tempthingy.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1375448939224" ignored="false" />
-    <file path="/test_n10_tempthingy.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1375449123915" ignored="false" />
-    <file path="/calculator_steps.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376905774979" ignored="false" />
-    <file path="/calc.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376586457687" ignored="false" />
-    <file path="/fruit_basquet01.feature" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376906037800" ignored="false" />
-    <file path="/test_fruit_basquet01_steps.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376906909821" ignored="false" />
-    <file path="/n11_cuc_fruits_REST_JSON1.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376912236504" ignored="false" />
-    <file path="/env.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376909727370" ignored="false" />
-    <file path="/cuc_fruitiness_steps.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376912351643" ignored="false" />
-    <file path="/cuc_web_steps.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376912807597" ignored="false" />
-    <file path="/fruitiness.feature" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376911229202" ignored="false" />
-    <file path="/n11_fruit_app.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376912205191" ignored="false" />
-    <file path="/fruits_to_JSON_cuc.feature" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376921566418" ignored="false" />
-    <file path="/calc_cuc_steps.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376921369201" ignored="false" />
-    <file path="/webFruits_cuc_steps.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376921518873" ignored="false" />
+    <file path="/Dummy.txt" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1376922700127" ignored="false" />
+    <file path="/env.rb" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1376925265391" ignored="false" />
+    <file path="/test1_cuc.feature" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1376935783081" ignored="false" />
+    <file path="/webFruits_cuc_steps.rb" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1376935505114" ignored="false" />
+    <file path="/n12_webBasquet.rb" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1376935451603" ignored="false" />
+    <file path="/temp.rb" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1376925161521" ignored="false" />
+    <file path="/fruitiness_cuc_steps.rb" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1376924399047" ignored="false" />
+    <file path="/fruits_to_JSON_cuc.feature" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1376924532458" ignored="false" />
+    <file path="/web_cuc_steps.rb" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1376935788580" ignored="false" />
+    <file path="/basquet.rb" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1376934968971" ignored="false" />
+    <file path="/n12_web_basquetizer.rb" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1376935449526" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,29 +51,72 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="GitP01" />
+    <favorites_list name="GitP03" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="adding.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/adding.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="135" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calculator_steps.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/calculator_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="296" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.30177152">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="test1_cuc.feature" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/features/test1_cuc.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="10" selection-start="423" selection-end="423" vertical-scroll-proportion="0.5983264">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <splitter split-orientation="horizontal" split-proportion="0.4427817">
+          <split-first>
+            <leaf>
+              <file leaf-file-name="web_cuc_steps.rb" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/features/step_definitions/web_cuc_steps.rb">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="2" column="11" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="env.rb" pinned="false" current="true" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="4" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.18410042">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="n12_web_basquetizer.rb" pinned="false" current="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/n12_web_basquetizer.rb">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="17" column="18" selection-start="326" selection-end="326" vertical-scroll-proportion="0.7824268">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="basquet.rb" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/basquet.rb">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="13" column="18" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -82,12 +134,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/temp_thingy.rb" />
-        <option value="$PROJECT_DIR$/src/n10_tempthingy.rb" />
-        <option value="$PROJECT_DIR$/test/test_n10_tempthingy.rb" />
-        <option value="$PROJECT_DIR$/calc.rb" />
-        <option value="$PROJECT_DIR$/features/adding.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/calculator_steps.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/fruitiness_cuc_steps.rb" />
+        <option value="$PROJECT_DIR$/src/n12_webBasquet.rb" />
+        <option value="$PROJECT_DIR$/src/n12_webBasquet_app.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/webFruits_cuc_steps.rb" />
+        <option value="$PROJECT_DIR$/src/n12_basquetApp.rb" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/src/basquet.rb" />
+        <option value="$PROJECT_DIR$/features/test1_cuc.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/web_cuc_steps.rb" />
+        <option value="$PROJECT_DIR$/src/n12_web_basquetizer.rb" />
       </list>
     </option>
   </component>
@@ -123,36 +179,21 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitP01" />
+              <option name="myItemId" value="GitP03" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitP01" />
+              <option name="myItemId" value="GitP03" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitP01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitP01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitP01" />
+              <option name="myItemId" value="GitP03" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -162,11 +203,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitP01" />
+              <option name="myItemId" value="GitP03" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitP01" />
+              <option name="myItemId" value="GitP03" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -176,11 +217,29 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitP01" />
+              <option name="myItemId" value="GitP03" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitP01" />
+              <option name="myItemId" value="GitP03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GitP03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GitP03" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -194,55 +253,47 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP01\test" />
-      <recent name="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP01\src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP03\src" />
+      <recent name="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP03\features\step_definitions" />
+      <recent name="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP03\features" />
+      <recent name="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP03\features\support" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber.adding">
-    <configuration default="false" name="test_n10_tempthingy" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="GitP01" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
+  <component name="RunManager" selected="Cucumber.test1_cuc">
+    <configuration default="false" name="n12_web_basquetizer" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="GitP03" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/src" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/test_n10_tempthingy.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP03\src\n12_web_basquetizer.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="adding" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration default="false" name="test1_cuc" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="GitP01" />
+      <module name="GitP03" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
@@ -259,7 +310,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/adding.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/test1_cuc.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
@@ -370,16 +421,16 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_n10_tempthingy" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber.adding" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.n12_web_basquetizer" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber.test1_cuc" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.adding" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.adding" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.adding" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.adding" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.adding" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.test1_cuc" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.test1_cuc" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.test1_cuc" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.n12_web_basquetizer" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.test1_cuc" />
       </list>
     </recent_temporary>
   </component>
@@ -403,33 +454,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" name="Default" comment="" />
-      <created>1375441884203</created>
-      <updated>1375441884203</updated>
+      <changelist id="fdd42d47-2a47-472e-bce3-f5647ac95e8f" name="Default" comment="" />
+      <created>1376922601548</created>
+      <updated>1376922601548</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
-    <editor active="false" />
+    <frame x="-4" y="-4" width="1928" height="1088" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32815534" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14239828" sideWeight="0.4590336" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12366167" sideWeight="0.54936975" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5409664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45063025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944915" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -465,7 +516,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="UPDATE_FILTER_SCOPE_NAME" />
@@ -493,91 +544,37 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/adding.feature">
+    <entry file="file://$PROJECT_DIR$/src/basquet.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="13" column="18" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/calculator_steps.rb">
+    <entry file="file://$PROJECT_DIR$/features/test1_cuc.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="296" vertical-scroll-proportion="0.0">
+        <state line="13" column="10" selection-start="423" selection-end="423" vertical-scroll-proportion="0.5983264">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/adding.feature">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/web_cuc_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+        <state line="2" column="11" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/calculator_steps.rb">
+    <entry file="file://$PROJECT_DIR$/src/n12_web_basquetizer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="17" column="18" selection-start="326" selection-end="326" vertical-scroll-proportion="0.7824268">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/calc.rb">
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/adding.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_n10_tempthingy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/n10_tempthingy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tempsrcfile.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/n10_tempthingy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="6" selection-end="19" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/temptestfile.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calc.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_n10_tempthingy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="36" selection-end="36" vertical-scroll-proportion="0.050808314" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/adding.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="135" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/calculator_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="296" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.18410042">
           <folding />
         </state>
       </provider>
