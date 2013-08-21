@@ -1,3 +1,4 @@
+=begin
 require 'rack/test'
 require_relative '../../src/n12_web_basquetizer'
 
@@ -9,4 +10,5 @@ module AppHelper
 end
 
 World(Rack::Test::Methods, AppHelper)
+=end
 

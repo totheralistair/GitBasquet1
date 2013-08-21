@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" name="Default" comment="" />
+    <list default="true" id="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP00wDave\src\n08_webbasquetCopy.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP03/features/support/env.rb" afterPath="$PROJECT_DIR$/../GitP03/features/support/env.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/n08_webbasquet.rb" afterPath="$PROJECT_DIR$/src/n08_webbasquet.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP03/src/n12_web_basquetizer.rb" afterPath="$PROJECT_DIR$/../GitP03/src/n12_web_basquetizer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP03/features/test1_cuc.feature" afterPath="$PROJECT_DIR$/../GitP03/features/test1_cuc.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP03/features/step_definitions/web_cuc_steps.rb" afterPath="$PROJECT_DIR$/../GitP03/features/step_definitions/web_cuc_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP01/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP03/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP03/.idea/workspace.xml" />
+    </list>
     <ignored path="acWithDave1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/basquette.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1372516049692" ignored="false" />
@@ -45,20 +56,20 @@
     <file path="/n02_web_get_respond.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1374841245957" ignored="false" />
     <file path="/n07_webAdd_to_basquet.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1374919199383" ignored="false" />
     <file path="/test_n06_rockpaperscissors.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1374842844762" ignored="false" />
-    <file path="/n08_webbasquet.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1374928420095" ignored="false" />
+    <file path="/n08_webbasquet.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1377089706125" ignored="false" />
     <file path="/n09_webtoBasquet_persistence.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1374925353287" ignored="false" />
     <file path="/test_n08_webtoBasquet_persistence.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1375045539382" ignored="false" />
     <file path="C:/Ruby200/lib/ruby/gems/2.0.0/gems/sinatra-1.4.3/lib/sinatra/base.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1375050771234" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/AlistairsProjects/GitBasquet1/GitP01/temp_thingy.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1375442002482" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/AlistairsProjects/GitBasquet1/GitP01/my_temp_test.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1375442022162" ignored="false" />
-    <file path="/Dummy.txt" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1376952803404" ignored="false" />
+    <file path="/Dummy.txt" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1377090546578" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/AlistairsProjects/GitBasquet1/GitP01/src/n10_tempthingy.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1375448939224" ignored="false" />
     <file path="/n10_tempthingy.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1375448939224" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/AlistairsProjects/GitBasquet1/GitP01/test/test_n10_tempthingy.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1375449124998" ignored="false" />
     <file path="/test_n10_tempthingy.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1375449123915" ignored="false" />
     <file path="$PROJECT_DIR$/../GitBasquet1/GitP02/features/fruits_to_JSON_cuc.feature" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1376924532801" ignored="false" />
     <file path="$PROJECT_DIR$/../GitBasquet1/GitP03/features/support/env.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1376925270482" ignored="false" />
-    <file path="/env.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1376925265615" ignored="false" />
+    <file path="/env.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1377090826667" ignored="false" />
     <file path="/test1_cuc.feature" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1376935783081" ignored="false" />
     <file path="$PROJECT_DIR$/../GitBasquet1/GitP03/features/test1_cuc.feature" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1376935783081" ignored="false" />
     <file path="$PROJECT_DIR$/../GitBasquet1/GitP03/features/step_definitions/fruitiness_cuc_steps.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1376923014943" ignored="false" />
@@ -74,9 +85,9 @@
     <file path="$PROJECT_DIR$/../GitBasquet1/GitP02/features/step_definitions/webFruits_cuc_steps.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1376924546418" ignored="false" />
     <file path="$PROJECT_DIR$/../GitBasquet1/GitP03/features/step_definitions/web_cuc_steps.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1376935788580" ignored="false" />
     <file path="$PROJECT_DIR$/../GitBasquet1/GitP03/src/n12_web_basquetizer.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1376935821049" ignored="false" />
-    <file path="/web_cuc_steps.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1376935788580" ignored="false" />
+    <file path="/web_cuc_steps.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1377092316754" ignored="false" />
     <file path="$PROJECT_DIR$/../GitBasquet1/GitP03/src/basquet.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1376935255866" ignored="false" />
-    <file path="/n12_web_basquetizer.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1376935449526" ignored="false" />
+    <file path="/n12_web_basquetizer.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1377092324652" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,13 +106,13 @@
     <favorites_list name="acWithDave1" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.59574467">
+    <splitter split-orientation="horizontal" split-proportion="0.40675762">
       <split-first>
         <leaf>
-          <file leaf-file-name="test_n08_webtoBasquet_persistence.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="test_n08_webtoBasquet_persistence.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/test_n08_webtoBasquet_persistence.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="35" selection-start="621" selection-end="621" vertical-scroll-proportion="0.38368246">
+                <state line="11" column="0" selection-start="277" selection-end="302" vertical-scroll-proportion="0.26681367">
                   <folding />
                 </state>
               </provider>
@@ -111,10 +122,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="n08_webbasquet.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="n08_webbasquet.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/n08_webbasquet.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="9" selection-start="667" selection-end="667" vertical-scroll-proportion="0.70341784">
+                <state line="15" column="12" selection-start="342" selection-end="342" vertical-scroll-proportion="0.35869566">
                   <folding />
                 </state>
               </provider>
@@ -138,6 +149,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -155,8 +174,8 @@
         <option value="$PROJECT_DIR$/test/test_n07_webin_persistence.rb" />
         <option value="$PROJECT_DIR$/src/basquet.rb" />
         <option value="$PROJECT_DIR$/test/n09_webtoBasquet_persistence.rb" />
-        <option value="$PROJECT_DIR$/src/n08_webbasquet.rb" />
         <option value="$PROJECT_DIR$/test/test_n08_webtoBasquet_persistence.rb" />
+        <option value="$PROJECT_DIR$/src/n08_webbasquet.rb" />
       </list>
     </option>
   </component>
@@ -166,7 +185,7 @@
     <option name="width" value="1928" />
     <option name="height" value="1088" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -192,7 +211,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -207,7 +225,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ac 03 WithDave" />
+              <option name="myItemId" value="GitP00wDave" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -221,32 +239,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ac 03 WithDave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acWithDave1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ac 03 WithDave" />
+              <option name="myItemId" value="GitP00wDave" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
@@ -503,6 +508,23 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" name="Default" comment="" />
@@ -513,17 +535,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17184155" sideWeight="0.36239496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1761242" sideWeight="0.8277311" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5840336" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6376051" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17226891" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -667,16 +689,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_n08_webtoBasquet_persistence.rb">
+    <entry file="file://$PROJECT_DIR$/src/n08_webbasquet.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="35" selection-start="621" selection-end="621" vertical-scroll-proportion="0.38368246">
+        <state line="15" column="12" selection-start="342" selection-end="342" vertical-scroll-proportion="0.35869566">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/n08_webbasquet.rb">
+    <entry file="file://$PROJECT_DIR$/test/test_n08_webtoBasquet_persistence.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="9" selection-start="667" selection-end="667" vertical-scroll-proportion="0.70341784">
+        <state line="11" column="0" selection-start="277" selection-end="302" vertical-scroll-proportion="0.26681367">
           <folding />
         </state>
       </provider>

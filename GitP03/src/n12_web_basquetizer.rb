@@ -2,8 +2,12 @@ require 'sinatra'
 require 'json'
 require_relative 'basquet'
 
-class WebBasquetizer < Sinatra::Base
-  myBasquet = Basquet.aPersistentBasquet
+#class WebBasquetizer < Sinatra::Base
+    myBasquet = Basquet.aPersistentBasquet
+
+  get '/' do
+    out = "Welcome to my iittle toy Basquet"
+  end
 
   get '/FRESH_DB' do
     myBasquet = Basquet.newPersistentBasquetPlease
@@ -16,11 +20,11 @@ class WebBasquetizer < Sinatra::Base
     out = "GET/add/#{theStuff}. Added at #{addedAt}"
   end
 
-  get '/getAt/:location' do
+  get '/getat/:location' do
     location = params[:location].to_i
     theStuff = myBasquet.gimmeAt(location)
     out = theStuff
   end
 
-end
+#end
 
