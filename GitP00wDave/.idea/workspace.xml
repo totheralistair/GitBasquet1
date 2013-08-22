@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP00wDave\src\n08_webbasquetCopy.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP03/features/support/env.rb" afterPath="$PROJECT_DIR$/../GitP03/features/support/env.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/n08_webbasquet.rb" afterPath="$PROJECT_DIR$/src/n08_webbasquet.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP03/src/n12_web_basquetizer.rb" afterPath="$PROJECT_DIR$/../GitP03/src/n12_web_basquetizer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP03/features/test1_cuc.feature" afterPath="$PROJECT_DIR$/../GitP03/features/test1_cuc.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP03/features/step_definitions/web_cuc_steps.rb" afterPath="$PROJECT_DIR$/../GitP03/features/step_definitions/web_cuc_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP01/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP03/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP03/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" name="Default" comment="" />
     <ignored path="acWithDave1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/basquette.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1372516049692" ignored="false" />
@@ -62,7 +51,7 @@
     <file path="C:/Ruby200/lib/ruby/gems/2.0.0/gems/sinatra-1.4.3/lib/sinatra/base.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1375050771234" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/AlistairsProjects/GitBasquet1/GitP01/temp_thingy.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1375442002482" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/AlistairsProjects/GitBasquet1/GitP01/my_temp_test.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1375442022162" ignored="false" />
-    <file path="/Dummy.txt" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1377090546578" ignored="false" />
+    <file path="/Dummy.txt" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1377093926278" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/AlistairsProjects/GitBasquet1/GitP01/src/n10_tempthingy.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1375448939224" ignored="false" />
     <file path="/n10_tempthingy.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1375448939224" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/AlistairsProjects/GitBasquet1/GitP01/test/test_n10_tempthingy.rb" changelist="8c12b1cf-c011-4b97-b313-22b0f47dd4e9" time="1375449124998" ignored="false" />
@@ -109,10 +98,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.40675762">
       <split-first>
         <leaf>
-          <file leaf-file-name="test_n08_webtoBasquet_persistence.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="test_n08_webtoBasquet_persistence.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/test_n08_webtoBasquet_persistence.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="0" selection-start="277" selection-end="302" vertical-scroll-proportion="0.26681367">
+                <state line="11" column="0" selection-start="277" selection-end="302" vertical-scroll-proportion="0.10694598">
                   <folding />
                 </state>
               </provider>
@@ -122,7 +111,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="n08_webbasquet.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="n08_webbasquet.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/n08_webbasquet.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="15" column="12" selection-start="342" selection-end="342" vertical-scroll-proportion="0.35869566">
@@ -251,12 +240,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -535,13 +524,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1761242" sideWeight="0.8277311" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17826553" sideWeight="0.8277311" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5840336" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -698,7 +687,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_n08_webtoBasquet_persistence.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="277" selection-end="302" vertical-scroll-proportion="0.26681367">
+        <state line="11" column="0" selection-start="277" selection-end="302" vertical-scroll-proportion="0.10694598">
           <folding />
         </state>
       </provider>
