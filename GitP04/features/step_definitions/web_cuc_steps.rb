@@ -26,11 +26,11 @@ When /^sending GET (.*) from the web client$/ do |requestpath|
 end
 
 Then /^on 1st add, the server put '(.+)' at location 0$/ do |stuff|
-  last_response.body.should == "via GET/add put:#{stuff}. at 0"
+  last_response.body.should == "via GET/textAdd put:#{stuff}. at 0"
 end
 
 Then /^on 2nd add, the server put '(.+)' at location 1$/ do |stuff|
-  last_response.body.should == "via GET/add put:#{stuff}. at 1"
+  last_response.body.should == "via GET/textAdd put:#{stuff}. at 1"
 end
 
 Then /^fetching from (\d+) indeed produces '(.*)'$/ do |locationAsString, stuff|
@@ -40,10 +40,23 @@ end
 
 When /^sending get\/getheaderkey\/(.*) answers (.*)$/ do |header, wishedHeaderKey|
   get "getheaderkey/#{header}"
-  #last_response.body.should == "boo"
   last_response.body.should == "via getheaderkey/ value for: #{header} is #{wishedHeaderKey}"
 end
+#============================================
+When /^sending '(.*)'$/ do |theVerb|
+  @requestedVerb = theVerb
+  get @requestedVerb
+end
 
+Then /^the server stored whole request at location (\d+)$/  do |location|
+  theStuff = @requestedVerb
+  last_response.body.should == "request for #{@requestedVerb} was stored at location #{location}"
+end
+
+Then /^the server brings back from location (\d+) the PATH_INFO '(.*)'$/ do |location, expData|
+  get '/httpGetat/' + location
+  last_response.body.should == "#{expData}"
+end
 
 
 

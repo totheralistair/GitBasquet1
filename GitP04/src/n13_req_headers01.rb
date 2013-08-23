@@ -14,10 +14,10 @@ require_relative 'basquet'
     out = myBasquet.size.to_s
   end
 
-  get '/add/:newStuff' do
+  get '/textAdd/:newStuff' do
     theStuff = params[:newStuff]
     addedAt = myBasquet.add(theStuff)
-    out = "via GET/add put:#{theStuff}. at #{addedAt}"
+    out = "via GET/textAdd put:#{theStuff}. at #{addedAt}"
   end
 
   get '/getat/:location' do
@@ -28,21 +28,26 @@ require_relative 'basquet'
 
 get '/getheaderkey/:wishedHeaderKey' do
   wishedHeaderKey = params[:wishedHeaderKey]
-  print wishedHeaderKey, "\n"
   winningValue = "not found"
   request.env.each do |headerKey, headerValue|
     if headerKey==wishedHeaderKey  then
-      print "Key=", headerKey, ". Value=", headerValue, ".\n"
       winningValue = headerValue
     end
   end
   out = "via getheaderkey/ value for: #{wishedHeaderKey} is #{winningValue}"
 end
 
+get '/httpAdd/*' do
+  requestedVerb = request.env["PATH_INFO"]
+  addedAt = myBasquet.add(request)
+  out = "request for #{requestedVerb} was stored at location #{addedAt}"
+end
 
+get '/httpGetat/:location' do
+  location = params[:location].to_i
+  wholeRequest = myBasquet.gimmeAt(location)
+  storedVerb = wholeRequest.env["PATH_INFO"]
+  out = storedVerb
+end
 
-
-
-
-#end
 
