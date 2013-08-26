@@ -11,12 +11,12 @@ require_relative 'basquet'
 
   get '/FRESH_DB' do
     myBasquet = Basquet.newPersistentBasquetPlease
-    out = myBasquet.size.to_s
+    out = "New basquet w #{myBasquet.size.to_s} items in it."
   end
 
   get '/textAdd/:newStuff' do
     theStuff = params[:newStuff]
-    addedAt = myBasquet.add(theStuff)
+    addedAt = myBasquet.zadd(theStuff)
     out = "via GET/textAdd put:#{theStuff}. at #{addedAt}"
   end
 
@@ -39,8 +39,8 @@ end
 
 get '/httpAdd/*' do
   requestedVerb = request.env["PATH_INFO"]
-  addedAt = myBasquet.add(request)
-  out = "request for #{requestedVerb} was stored at location #{addedAt}"
+  addedAt = myBasquet.zadd(request)
+  out = "httpAdd request was stored at location #{addedAt}"
 end
 
 get '/httpGetat/:location' do
@@ -48,6 +48,21 @@ get '/httpGetat/:location' do
   wholeRequest = myBasquet.gimmeAt(location)
   storedVerb = wholeRequest.env["PATH_INFO"]
   out = storedVerb
+end
+
+post '/httpPOSTadd' do
+  dataKey = 'acData'
+  dataValue = request.env["rack.request.form_hash"][dataKey]
+  addedAt = myBasquet.zadd(request)
+  out = "requested httpPOSTadd for #{dataKey} = #{dataValue} was stored at location #{addedAt}"
+end
+
+get '/httpFromPOSTgetat/:location' do
+  location = params[:location].to_i
+  wholeRequest = myBasquet.gimmeAt(location)
+  dataKey = 'acData'
+  dataValue = wholeRequest.env["rack.request.form_hash"][dataKey]
+  out = dataValue
 end
 
 

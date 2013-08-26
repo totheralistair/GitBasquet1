@@ -25,8 +25,15 @@ Feature: a fruit in a basquet
     * the site is responding
     * with a fresh Basquet
     * sending '/httpAdd/broohaha'
-    * the server stored whole request at location 0
-    * the server brings back from location 0 the PATH_INFO '/httpAdd/broohaha'
+    * the server stored httpAdd request at location 0
+    * the server brings back from location 0 the data '/httpAdd/broohaha'
     * sending '/httpAdd/GrimmStories'
-    * the server stored whole request at location 1
-    * the server brings back from location 1 the PATH_INFO '/httpAdd/GrimmStories'
+    * the server stored httpAdd request at location 1
+    * the server brings back from location 1 the data '/httpAdd/GrimmStories'
+
+  Scenario: add & store POST request
+    * the site is responding
+    * with a fresh Basquet
+    * sending POST w 'acData'='oogaPOSTboogo'
+    * sendinghttpPOSTadd acData = oogaPOSTboogo location 0
+    * the server brings back from POST at location 0 the data 'oogaPOSTboogo'

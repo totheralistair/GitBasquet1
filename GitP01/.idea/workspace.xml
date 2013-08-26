@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP03/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP03/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP04/src/basquet.rb" afterPath="$PROJECT_DIR$/../GitP04/src/basquet.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP04/src/n13_req_headers01.rb" afterPath="$PROJECT_DIR$/../GitP04/src/n13_req_headers01.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP00wDave/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP00wDave/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP02/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP02/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP04/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP04/.idea/workspace.xml" />
     </list>
     <ignored path="GitP01.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1377089075955" ignored="false" />
+    <file path="/Dummy.txt" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1377333444207" ignored="false" />
     <file path="/n10_tempthingy.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1375448939224" ignored="false" />
     <file path="/test_n10_tempthingy.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1375449123915" ignored="false" />
     <file path="/calculator_steps.rb" changelist="5b0e3ee9-dd86-4022-8775-0990d1df0a1b" time="1376905774979" ignored="false" />
@@ -194,13 +198,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.fileTypes" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GitP00wDave" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GitP00wDave" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -412,7 +416,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14400429" sideWeight="0.4590336" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14561027" sideWeight="0.4590336" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />

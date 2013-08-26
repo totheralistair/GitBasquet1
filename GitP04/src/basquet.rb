@@ -13,9 +13,8 @@ class Basquet
     @contents = Array.new
   end
 
-  def add(something)    #returns index of thing added
-    @contents.push(something)
-    @contents.size - 1
+  def zadd(something)    #returns index of thing added
+    @contents.push(something).size - 1
   end
 
   def gimmeAt(index)

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" name="Default" comment="" />
+    <list default="true" id="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP04/src/basquet.rb" afterPath="$PROJECT_DIR$/../GitP04/src/basquet.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP04/src/n13_req_headers01.rb" afterPath="$PROJECT_DIR$/../GitP04/src/n13_req_headers01.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP00wDave/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP00wDave/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP04/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP04/.idea/workspace.xml" />
+    </list>
     <ignored path="GitP02.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" time="1376922700425" ignored="false" />
+    <file path="/Dummy.txt" changelist="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" time="1377333433991" ignored="false" />
     <file path="/test_fruit_basquet01.feature" changelist="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" time="1376902417954" ignored="false" />
     <file path="/test_fruit_basquet01_steps.rb" changelist="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" time="1376906909821" ignored="false" />
     <file path="/cuc_web_steps.rb" changelist="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" time="1376912807597" ignored="false" />
@@ -56,7 +62,7 @@
       <file leaf-file-name="n11_fruit_app.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/n11_fruit_app.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="10" column="3" selection-start="159" selection-end="159" vertical-scroll-proportion="0.23913044">
               <folding />
             </state>
           </provider>
@@ -135,8 +141,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1290" />
-    <option name="height" value="456" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1928" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -164,6 +172,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,7 +257,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,7 +264,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ac 03 WithDave" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GitP00wDave" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -403,11 +411,10 @@
       <item index="0" class="java.lang.String" itemvalue="Cucumber.fruits_to_JSON_cuc" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Cucumber.fruits_to_JSON_cuc" />
         <item index="1" class="java.lang.String" itemvalue="Cucumber.fruits_to_JSON_cuc" />
         <item index="2" class="java.lang.String" itemvalue="Cucumber.fruits_to_JSON_cuc" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.fruitiness" />
       </list>
     </recent_temporary>
   </component>
@@ -438,15 +445,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1290" height="456" extended-state="0" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32878152" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21463415" sideWeight="0.34632683" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16006424" sideWeight="0.34632683" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -455,6 +461,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32878152" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -521,6 +528,41 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/n11_fruit_app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/fruitiness_cuc_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="47" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/fruits_to_JSON_cuc.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="55" selection-start="377" selection-end="426" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/calc_cuc_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="31" selection-start="71" selection-end="80" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/webFruits_cuc_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="58" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
@@ -593,7 +635,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/n11_fruit_app.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="3" selection-start="159" selection-end="159" vertical-scroll-proportion="0.23913044">
           <folding />
         </state>
       </provider>
