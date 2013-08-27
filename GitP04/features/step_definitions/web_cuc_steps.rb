@@ -10,6 +10,7 @@ module AppHelper
 end
 World(Rack::Test::Methods, AppHelper)
 
+# ==================== SENDING STUFF ================
 
 When /^the site is responding$/ do
   print "\nstarting the site is responding"
@@ -23,19 +24,28 @@ When /^with a fresh Basquet$/ do
   last_response.body.should == "New basquet w 0 items in it."
 end
 
-When /^sending GET (.*) from the web client$/ do |requestpath|
-  print "\nsending GET x from the web client"
-  get(requestpath)
+When /^with URL (.*)$/ do |theVerb|
+  print "\nwith URL x"
+  get theVerb
 end
+
+When /^sending POST w '(.*)'='(.*)'$/ do |key, value|
+  print "\nsending POSt w x=y"
+  post '/addrequest', key+'='+value
+end
+
+
+# ==================== CHECKING STUFF ================
+
 
 Then /^on 1st add, the server put '(.+)' at location 0$/ do |stuff|
   print "\non 1st add, the server put x at location 0"
-  last_response.body.should == "via GET/textAdd put:#{stuff}. at 0"
+  last_response.body.should == "GET/addTextImmediate requested. I put :#{stuff}: at 0"
 end
 
 Then /^on 2nd add, the server put '(.+)' at location 1$/ do |stuff|
   print "\non 2nd add, the server put x at location 1"
-  last_response.body.should == "via GET/textAdd put:#{stuff}. at 1"
+  last_response.body.should == "GET/addTextImmediate requested. I put :#{stuff}: at 1"
 end
 
 Then /^fetching from (\d+) indeed produces '(.*)'$/ do |locationAsString, stuff|
@@ -44,49 +54,30 @@ Then /^fetching from (\d+) indeed produces '(.*)'$/ do |locationAsString, stuff|
   last_response.body.should == stuff
 end
 
-When /^sending get\/getheaderkey\/(.*) answers (.*)$/ do |header, wishedHeaderKey|
-  print "\nsending get.getheaderky.x answers y"
-  get "getheaderkey/#{header}"
-  last_response.body.should == "via getheaderkey/ value for: #{header} is #{wishedHeaderKey}"
-end
-#============================================
-When /^sending '(.*)'$/ do |theVerb|
-  print "\nsending x"
-  @requestedVerb = theVerb
-  get @requestedVerb
-end
-
 Then /^the server stored httpAdd request at location (\d+)$/  do |location|
   print "\nthe server stored httpAdd request at location x"
-  last_response.body.should == "httpAdd request was stored at location #{location}"
+  last_response.body.should == "addRequest request was stored at location #{location}"
 end
 
-Then /^sendinghttpPOSTadd (.*) = (.*) location (\d+)$/  do | where, what, location |
-  print "\nsendinghttpPostadd x = y location z"
-  where = 'acData'
-  what = 'oogaPOSTboogo'
-  last_response.body.should == "requested httpPOSTadd for #{where} = #{what} was stored at location #{location}"
+Then /^the server stored the POST request at location (\d+)$/  do | location |
+  print "\nthe server stored the POST request at location z"
+  last_response.body.should == "addrequest request was stored at location #{location}"
 end
 
-Then /^the server brings back from location (\d+) the data '(.*)'$/ do |location, expData|
-  print "\nthe server brings back from location x the data y"
-  get '/httpGetat/' + location
+Then /^the server brings back from location (\d+) the request verb payload '(.*)'$/ do |location, expData|
+  print "\nthe server brings back from location x the request verb payload y"
+  get '/getRequest-VerbAt/' + location
   last_response.body.should == "#{expData}"
 end
 
-Then /^the server brings back from POST at location (\d+) the data '(.*)'$/ do |location, expData|
-  print "\nthe server brings back from POST at location x the data y"
-  get '/httpFromPOSTgetat/' + location
+Then /^the server brings back from POST at location (\d+) the data '(.*)'='(.*)'$/ do |location, dataKey, expData|
+  print "\nthe server brings back from POST at location a the data b=c"
+  get "/getRequest-DataFieldAt/#{dataKey}/#{location}"
   last_response.body.should == "#{expData}"
 end
 
 
 
-
-When /^sending POST w '(.*)'='(.*)'$/ do |key, value|
-  print "\nsending POSt w x=y:"
-  post '/httpPOSTadd', key+'='+value
-end
 
 
 

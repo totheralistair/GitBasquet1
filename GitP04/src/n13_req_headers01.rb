@@ -14,55 +14,40 @@ require_relative 'basquet'
     out = "New basquet w #{myBasquet.size.to_s} items in it."
   end
 
-  get '/textAdd/:newStuff' do
-    theStuff = params[:newStuff]
-    addedAt = myBasquet.zadd(theStuff)
-    out = "via GET/textAdd put:#{theStuff}. at #{addedAt}"
-  end
+# ==================== RETRIEVING STUFF ================
 
-  get '/getat/:location' do
-    location = params[:location].to_i
-    theStuff = myBasquet.gimmeAt(location)
-    out = theStuff
-  end
-
-get '/getheaderkey/:wishedHeaderKey' do
-  wishedHeaderKey = params[:wishedHeaderKey]
-  winningValue = "not found"
-  request.env.each do |headerKey, headerValue|
-    if headerKey==wishedHeaderKey  then
-      winningValue = headerValue
-    end
-  end
-  out = "via getheaderkey/ value for: #{wishedHeaderKey} is #{winningValue}"
+get '/getat/:location' do
+  out = myBasquet.gimmeAt( params[:location].to_i )
 end
 
-get '/httpAdd/*' do
-  requestedVerb = request.env["PATH_INFO"]
-  addedAt = myBasquet.zadd(request)
-  out = "httpAdd request was stored at location #{addedAt}"
+get '/getRequest-VerbAt/:location' do
+  theRequest = myBasquet.gimmeAt( params[:location].to_i )
+  out = theRequest.env["PATH_INFO"]
 end
 
-get '/httpGetat/:location' do
-  location = params[:location].to_i
-  wholeRequest = myBasquet.gimmeAt(location)
-  storedVerb = wholeRequest.env["PATH_INFO"]
-  out = storedVerb
-end
-
-post '/httpPOSTadd' do
-  dataKey = 'acData'
-  dataValue = request.env["rack.request.form_hash"][dataKey]
-  addedAt = myBasquet.zadd(request)
-  out = "requested httpPOSTadd for #{dataKey} = #{dataValue} was stored at location #{addedAt}"
-end
-
-get '/httpFromPOSTgetat/:location' do
-  location = params[:location].to_i
-  wholeRequest = myBasquet.gimmeAt(location)
-  dataKey = 'acData'
-  dataValue = wholeRequest.env["rack.request.form_hash"][dataKey]
+get '/getRequest-DataFieldAt/:dataKey/:location' do
+  wholeRequest = myBasquet.gimmeAt( params[:location].to_i )
+  dataValue = wholeRequest.env["rack.request.form_hash"][ params[:dataKey] ]
   out = dataValue
 end
 
+# ==================== STORING STUFF ================
+
+get '/addTextImmediate/:newStuff' do
+  theStuff = params[:newStuff]
+  addedAt = myBasquet.zadd(theStuff)
+  out = "GET/addTextImmediate requested. I put :#{theStuff}: at #{addedAt}"
+end
+
+get '/addRequest/*' do
+  addedAt = myBasquet.zadd(request)
+  out = "addRequest request was stored at location #{addedAt}"
+end
+
+post '/addrequest' do
+  addedAt = myBasquet.zadd(request)
+  out = "addrequest request was stored at location #{addedAt}"
+end
+
+# ==================== DEPRECATED ================
 
