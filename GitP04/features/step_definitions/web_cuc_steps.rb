@@ -1,5 +1,5 @@
 require 'rack/test'
-require_relative '../../src/n13_req_headers01'
+
 
 module AppHelper
   # Rack-Test expects the app method to return a Rack application
