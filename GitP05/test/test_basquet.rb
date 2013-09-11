@@ -13,7 +13,6 @@ class TestBasquet < Test::Unit::TestCase
   def test_new_basquet_is_empty
     b = Basquet.new
     b.size.should == 0
-
   end
 
   def test_zadd_returns_index
@@ -30,19 +29,18 @@ class TestBasquet < Test::Unit::TestCase
     b.gimmeLast(1).should == []
     b.zadd( 'alistair')
     b.zadd( 'alistai')
+    b.gimmeLast(1).should == ['alistai']
+    b.gimmeLast(2).should == ['alistair','alistai']
     b.gimmeLast(3).should == ['alistair','alistai']
     b.gimmeAll.should == ['alistair','alistai']
   end
-
-
-
 
 
   def test_gimme_alone_gives_latest_addition
   b = Basquet.new
   b.zadd( 'alistair')
   b.zadd( 'alistai')
-  assert_equal(['alistai'], b.gimmeLast)
+  b.gimmeLast.should == ['alistai']
   end
 
 end

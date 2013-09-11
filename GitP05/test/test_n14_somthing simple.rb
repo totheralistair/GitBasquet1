@@ -12,55 +12,55 @@ require_relative '../src/n14_req_headers01'
 
   def test_00_hello
     get '/'
-    last_response.body.should == "Welcome to my iittle toy Basquet"
+      last_response.body.should == "Welcome to my iittle toy Basquet"
   end
 
   def test_01_fresh_basquet_is_empty
     get "/FRESH_DB"
-    last_response.body.should == "New basquet w 0 items in it."
+      last_response.body.should == "New basquet w 0 items."
   end
 
-  def add_1_item_puts_it_at_0
+  def test_add_1_item_puts_it_at_0
     get "/FRESH_DB"
-      last_response.body.should == "New basquet w 0 items in it."
-    get "/addTextImmediate/item1"
-      last_response.body.should == "GET/addTextImmediate requested. I put :'item1': at 0"
-    get '/getat/0'
+      last_response.body.should == "New basquet w 0 items."
+    get "/addImmediate/item1"
+      last_response.body.should == "GET/addImmediate of :item1: at 0"
+    get '/getAt/0'
       last_response.body.should == 'item1'
   end
 
   def test_add_2_items_puts_it_at_1
     get "/FRESH_DB"
-      last_response.body.should == "New basquet w 0 items in it."
-    get "/addTextImmediate/new_1st_item"
-      last_response.body.should == "GET/addTextImmediate requested. I put :new_1st_item: at 0"
-    get "/addTextImmediate/item2"
-      last_response.body.should == "GET/addTextImmediate requested. I put :item2: at 1"
-    get '/getat/0'
+      last_response.body.should == "New basquet w 0 items."
+    get "/addImmediate/new_1st_item"
+      last_response.body.should == "GET/addImmediate of :new_1st_item: at 0"
+    get "/addImmediate/item2"
+      last_response.body.should == "GET/addImmediate of :item2: at 1"
+    get '/getAt/0'
       last_response.body.should == 'new_1st_item'
-    get '/getat/1'
+    get '/getAt/1'
       last_response.body.should == 'item2'
   end
 
     def test_storing_full_request
       get "/FRESH_DB"
-        last_response.body.should == "New basquet w 0 items in it."
-      get "/addRequest/broohaha"
-        last_response.body.should == "addRequest request was stored at location 0"
-      get '/getRequest-VerbAt/0'
-        last_response.body.should == "/addRequest/broohaha"
-      get "/addRequest/GrimmStories"
-        last_response.body.should == "addRequest request was stored at location 1"
-      get '/getRequest-VerbAt/1'
-        last_response.body.should == "/addRequest/GrimmStories"
+        last_response.body.should == "New basquet w 0 items."
+      get "/addGETRequest/broohaha"
+        last_response.body.should == "addGETRequest request stored at 0"
+      get '/getRequestVerbAt/0'
+        last_response.body.should == "/addGETRequest/broohaha"
+      get "/addGETRequest/GrimmStories"
+        last_response.body.should == "addGETRequest request stored at 1"
+      get '/getRequestVerbAt/1'
+        last_response.body.should == "/addGETRequest/GrimmStories"
     end
 
-    def test_storing_POSt_request
+    def test_storing_POST_request
       get "/FRESH_DB"
-        last_response.body.should == "New basquet w 0 items in it."
-      post '/addRequest', 'acData=oogaPOSTboogo'
-        last_response.body.should == "addRequest request was stored at location 0"
-      get "/getRequest-DataFieldAt/acData/0"
+        last_response.body.should == "New basquet w 0 items."
+      post '/addPOSTRequest', 'acData=oogaPOSTboogo'
+        last_response.body.should == "addPOSTRequest request stored at 0"
+      get "/getAtRequestDataField/0/acData"
        last_response.body.should == "oogaPOSTboogo"
     end
 
