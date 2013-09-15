@@ -1,15 +1,15 @@
 
-class Basquet
+class WebMuffinBasquet
 # ======= CLASS METHODS =======
   def self.aPersistentBasquet
-    @@theOneAndOnlyBasquet ||= Basquet.new
+    @@theOneAndOnlyBasquet ||= WebMuffinBasquet.new
   end
 
   def self.newPersistentBasquetPlease
-    @@theOneAndOnlyBasquet = Basquet.new
+    @@theOneAndOnlyBasquet = WebMuffinBasquet.new
   end
 
-# ======= INSTANCE METHODS =======
+# ======= BASIC INSTANCE METHODS =======
   def initialize
     @contents = Array.new
   end
@@ -33,5 +33,10 @@ class Basquet
   def size
     @contents.size
   end
+
+# ======= WEBMUFFIN ACCESS METHODS =======
+
+
+
 
 end
