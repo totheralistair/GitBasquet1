@@ -24,14 +24,22 @@ get '/addImmediate/:newStuff' do
 end
 
 get '/addGETRequest/*' do
+  if request.cookies.empty?
+    response.set_cookie( "user_session", :value => "user 123")
+  end
   addedAt = myBasquet.zadd(request)
   out = "addGETRequest request stored at #{addedAt}"
 end
 
 post '/addPOSTRequest' do
+  if request.cookies.empty?
+    response.set_cookie( "user_session", :value => "user 123")
+  end
   addedAt = myBasquet.zadd(request)
-  out = "addPOSTRequest request stored at #{addedAt}"
+out = "addPOSTRequest request stored at #{addedAt}"
 end
+
+
 
 # ==================== RETRIEVING STUFF ================
 

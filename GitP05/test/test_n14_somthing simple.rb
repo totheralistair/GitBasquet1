@@ -64,5 +64,35 @@ require_relative '../src/n14_req_headers01'
        last_response.body.should == "oogaPOSTboogo"
     end
 
-end
+    def test_cookie_gets_added_if_it_does_not_exist
+      #  SEE MOM, NO COOKIE!
+      get "/FRESH_DB"
+      post '/addPOSTRequest', 'acData=oogaPOSTboogo'
+      last_response.body.should == "addPOSTRequest request stored at 0"
+      last_response.original_headers["Set-Cookie"].should == "user_session=user+123"
+    end
+
+    def test_cookie_found_if_it_already_exists
+      set_cookie "user_session=user 123"
+      get "/FRESH_DB";  last_response.body.should == "New basquet w 0 items."
+      post '/addPOSTRequest', 'acData=oogaPOSTboogo'
+      #puts last_request.inspect
+        last_response.body.should == "addPOSTRequest request stored at 0"
+        last_request.cookies.should  == { "user_session" => "user 123"}
+    end
+
+    def test_cookie_found_from_previous_request
+      # no cookie setting
+      get "/FRESH_DB";  last_response.body.should == "New basquet w 0 items."
+      post '/addPOSTRequest', 'acData=oogaPOSTboogo'
+        last_response.body.should == "addPOSTRequest request stored at 0"
+      get "/getAtRequestDataField/0/acData"
+        last_response.body.should == "oogaPOSTboogo"
+        last_request.cookies.should  == { "user_session" => "user 123"}
+
+    end
+
+      #puts last_request.inspect
+      #puts last_response.inspect
+  end
 
