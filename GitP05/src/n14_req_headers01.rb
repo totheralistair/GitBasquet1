@@ -17,12 +17,6 @@ get '/' do
 
 # ==================== STORING STUFF ================
 
-get '/addImmediate/:newStuff' do
-  theStuff = params[:newStuff]
-  addedAt = myBasquet.zadd(theStuff)
-  out = "GET/addImmediate of :#{theStuff}: at #{addedAt}"
-end
-
 get '/addGETRequest/*' do
   if request.cookies.empty?
     response.set_cookie( "user_session", :value => "user 123")

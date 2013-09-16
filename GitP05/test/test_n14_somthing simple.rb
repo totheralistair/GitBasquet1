@@ -3,7 +3,7 @@ require 'test/unit'
 require 'rack/test'
 require_relative '../src/n14_req_headers01'
 
-  class TestRequestsToBasquet < Test::Unit::TestCase
+class TestRequestsToBasquet < Test::Unit::TestCase
     include Rack::Test::Methods
 
   def app
@@ -20,79 +20,52 @@ require_relative '../src/n14_req_headers01'
       last_response.body.should == "New basquet w 0 items."
   end
 
-  def test_add_1_item_puts_it_at_0
-    get "/FRESH_DB"
-      last_response.body.should == "New basquet w 0 items."
-    get "/addImmediate/item1"
-      last_response.body.should == "GET/addImmediate of :item1: at 0"
-    get '/getAt/0'
-      last_response.body.should == 'item1'
-  end
-
-  def test_add_2_items_puts_it_at_1
-    get "/FRESH_DB"
-      last_response.body.should == "New basquet w 0 items."
-    get "/addImmediate/new_1st_item"
-      last_response.body.should == "GET/addImmediate of :new_1st_item: at 0"
-    get "/addImmediate/item2"
-      last_response.body.should == "GET/addImmediate of :item2: at 1"
-    get '/getAt/0'
-      last_response.body.should == 'new_1st_item'
-    get '/getAt/1'
-      last_response.body.should == 'item2'
-  end
-
-    def test_storing_full_request
-      get "/FRESH_DB"
-        last_response.body.should == "New basquet w 0 items."
-      get "/addGETRequest/broohaha"
+  def test_storing_full_request
+    get "/FRESH_DB"; last_response.body.should == "New basquet w 0 items."
+    get "/addGETRequest/broohaha"
         last_response.body.should == "addGETRequest request stored at 0"
-      get '/getRequestVerbAt/0'
+    get '/getRequestVerbAt/0'
         last_response.body.should == "/addGETRequest/broohaha"
-      get "/addGETRequest/GrimmStories"
+    get "/addGETRequest/GrimmStories"
         last_response.body.should == "addGETRequest request stored at 1"
-      get '/getRequestVerbAt/1'
+    get '/getRequestVerbAt/1'
         last_response.body.should == "/addGETRequest/GrimmStories"
-    end
+  end
 
-    def test_storing_POST_request
-      get "/FRESH_DB"
-        last_response.body.should == "New basquet w 0 items."
-      post '/addPOSTRequest', 'acData=oogaPOSTboogo'
+  def test_storing_POST_request
+    get "/FRESH_DB"; last_response.body.should == "New basquet w 0 items."
+    post '/addPOSTRequest', 'acData=oogaPOSTboogo'
         last_response.body.should == "addPOSTRequest request stored at 0"
-      get "/getAtRequestDataField/0/acData"
+    get "/getAtRequestDataField/0/acData"
        last_response.body.should == "oogaPOSTboogo"
-    end
+  end
 
-    def test_cookie_gets_added_if_it_does_not_exist
-      #  SEE MOM, NO COOKIE!
-      get "/FRESH_DB"
-      post '/addPOSTRequest', 'acData=oogaPOSTboogo'
-      last_response.body.should == "addPOSTRequest request stored at 0"
-      last_response.original_headers["Set-Cookie"].should == "user_session=user+123"
-    end
-
-    def test_cookie_found_if_it_already_exists
-      set_cookie "user_session=user 123"
-      get "/FRESH_DB";  last_response.body.should == "New basquet w 0 items."
-      post '/addPOSTRequest', 'acData=oogaPOSTboogo'
-      #puts last_request.inspect
+  def test_cookie_gets_added_if_it_does_not_exist
+    #  SEE MOM, NO COOKIE!
+    get "/FRESH_DB"; last_response.body.should == "New basquet w 0 items."
+    post '/addPOSTRequest', 'acData=oogaPOSTboogo'
         last_response.body.should == "addPOSTRequest request stored at 0"
-        last_request.cookies.should  == { "user_session" => "user 123"}
+        last_response.original_headers["Set-Cookie"].should == "user_session=user+123"
     end
 
-    def test_cookie_found_from_previous_request
-      # no cookie setting
-      get "/FRESH_DB";  last_response.body.should == "New basquet w 0 items."
-      post '/addPOSTRequest', 'acData=oogaPOSTboogo'
-        last_response.body.should == "addPOSTRequest request stored at 0"
-      get "/getAtRequestDataField/0/acData"
-        last_response.body.should == "oogaPOSTboogo"
-        last_request.cookies.should  == { "user_session" => "user 123"}
+  def test_cookie_found_if_it_already_exists
+    set_cookie "user_session=user 567"
+    get "/FRESH_DB";  last_response.body.should == "New basquet w 0 items."
+    post '/addPOSTRequest', 'acData=oogaPOSTboogo'; last_response.body.should == "addPOSTRequest request stored at 0"
+        last_request.cookies.should  == { "user_session" => "user 567"}
+  end
 
-    end
+  def test_cookie_found_from_previous_request_and_none_returned_in_response
+    # no cookie setting
+    get "/FRESH_DB";  last_response.body.should == "New basquet w 0 items."
+    post '/addPOSTRequest', 'acData=oogaPOSTboogo'; last_response.body.should == "addPOSTRequest request stored at 0"
+        last_response.original_headers["Set-Cookie"].should == "user_session=user+123"
+    get "/getAtRequestDataField/0/acData"; last_response.body.should == "oogaPOSTboogo"
+        last_request.cookies.should  == { "user_session" => "user 123"}
+        last_response.original_headers["Set-Cookie"].should == nil
+  end
 
       #puts last_request.inspect
       #puts last_response.inspect
-  end
+end
 
