@@ -1,9 +1,10 @@
 require_relative 'basquet'
+require 'net/http'
 
 $basquet = Basquet.newPersistentBasquetPlease
 
 def muffinland_home
-  out = "Welcome to my iittle toy Basquet"
+  out = "Welcome to Muffinland & my little toy Basquet"
 end
 
 def muffinland_fresh_DB # GOOK: USE ONLY FOR TESTING, NOT PRODUCTION!!
@@ -11,7 +12,7 @@ def muffinland_fresh_DB # GOOK: USE ONLY FOR TESTING, NOT PRODUCTION!!
   out = "New basquet w #{$basquet.size.to_s} items."
 end
 
-def muffinland_addGETRequest
+def muffinland_addGETRequest(request)
 #  if request.cookies.empty?
 #    response.set_cookie( "user_session", :value => "user 123")
 #  end
@@ -19,7 +20,7 @@ def muffinland_addGETRequest
   out = "addGETRequest request stored at #{addedAt}"
 end
 
-def muffinland_addPOSTRequest
+def muffinland_addPOSTRequest(request)
 #  if request.cookies.empty?
 #    response.set_cookie( "user_session", :value => "user 123")
 #  end
@@ -27,8 +28,10 @@ def muffinland_addPOSTRequest
   out = "addPOSTRequest request stored at #{addedAt}"
 end
 
-def muffinland_getRequestVerb_of_at(laBasquet, location)
-  request = laBasquet.gimmeAt( location )
-  out = request.env["PATH_INFO"]
+def muffinland_getRequestVerb_at(location)
+  req = $basquet.gimmeAt( location )
+  puts "1.", req.inspect
+  out = req
+  #out = req["PATH_INFO"]
 end
 

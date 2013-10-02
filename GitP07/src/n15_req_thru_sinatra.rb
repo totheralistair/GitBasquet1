@@ -1,7 +1,7 @@
 # refactoring to extract web piece
 require 'sinatra'
 require_relative 'basquet'
-require_relative 'n15_req_no_sinatra'
+require_relative 'muffinland_verbs'
 
 #class WebBasquetizer < Sinatra::Base
     $basquet = Basquet.aPersistentBasquet
@@ -19,11 +19,11 @@ end
 # ==================== STORING STUFF ================
 
 get '/addGETRequest/*' do
-  out = muffinland_addGETRequest
+  out = muffinland_addGETRequest(request)
 end
 
 post '/addPOSTRequest' do
-  out = muffinland_addPOSTRequest
+  out = muffinland_addPOSTRequest(request)
 end
 
 
@@ -36,7 +36,10 @@ end
 
 get '/getRequestVerbAt/:location' do
   theLocation = params[:location].to_i
-  out = muffinland_getRequestVerb_of_at($basquet, theLocation)
+  thing = muffinland_getRequestVerb_at( theLocation )
+  puts "2.", thing.inspect
+
+  out = thing
 end
 
 get '/getAtRequestDataField/:location/:dataKey' do

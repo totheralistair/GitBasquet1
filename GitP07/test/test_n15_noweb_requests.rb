@@ -1,43 +1,45 @@
 require 'rspec/expectations'
 require 'test/unit'
-require 'rack/test'
-require_relative '../src/n15_req_w_sinatra'
+require_relative '../src/muffinland_verbs'
 
-class TestRequestsToBasquet < Test::Unit::TestCase
-    include Rack::Test::Methods
 
-  def app
-    Sinatra::Application
+
+class TestWeblessRequestsToBasquet < Test::Unit::TestCase
+  def setup
   end
 
-  def test_00_hello
-    get '/'
-      last_response.body.should == "Welcome to my iittle toy Basquet"
+  def teardown
+  end
+
+
+  def test_00_muffinland_home
+    muffinland_home.should == "Welcome to Muffinland & my little toy Basquet"
   end
 
   def test_01_fresh_basquet_is_empty
-    get "/FRESH_DB"
-      last_response.body.should == "New basquet w 0 items."
+    muffinland_fresh_DB.should == "New basquet w 0 items."
   end
 
-    def test_02_storing_full_request
-      get "/FRESH_DB"; last_response.body.should == "New basquet w 0 items."
-      get "/addGETRequest/broohaha"
-      last_response.body.should == "addGETRequest request stored at 0"
-    end
+  def test_02_storing_full_request
+    muffinland_fresh_DB.should == "New basquet w 0 items."
+    muffinland_addGETRequest("/addGETRequest/broohaha").should == "addGETRequest request stored at 0"
+  end
 
-    def test_02b_correct_persistence_of_basquet_across_tests
-      get "/FRESH_DB"; last_response.body.should == "New basquet w 0 items."
-      get "/addGETRequest/broohaha"
-      last_response.body.should == "addGETRequest request stored at 0"
-    get '/getRequestVerbAt/0'
-        last_response.body.should == "/addGETRequest/broohaha"
+  def test_02b_correct_persistence_of_basquet_across_tests
+    muffinland_fresh_DB.should == "New basquet w 0 items."
+    muffinland_addGETRequest("/addGETRequest/broohaha").should == "addGETRequest request stored at 0"
+    req = Net::HTTP::Get.new('http://bogus.uri')
+    req['PATH_INFO']= 'something'
+    req.body = 'hi'
+    muffinland_addGETRequest(req)
+    muffinland_getRequestVerb_at(1).should == "something"
+  end
+
+=begin
     get "/addGETRequest/GrimmStories"
         last_response.body.should == "addGETRequest request stored at 1"
     get '/getRequestVerbAt/1'
         last_response.body.should == "/addGETRequest/GrimmStories"
-    end
-
   def test_03_storing_POST_request
     get "/FRESH_DB"; last_response.body.should == "New basquet w 0 items."
     post '/addPOSTRequest', 'acData=oogaPOSTboogo'
@@ -46,7 +48,6 @@ class TestRequestsToBasquet < Test::Unit::TestCase
        last_response.body.should == "oogaPOSTboogo"
   end
 
-=begin
   def test_cookie_gets_added_if_it_does_not_exist
     #  SEE MOM, NO COOKIE!
     get "/FRESH_DB"; last_response.body.should == "New basquet w 0 items."
