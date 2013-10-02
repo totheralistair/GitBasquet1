@@ -10,12 +10,18 @@ class TestBasquet < Test::Unit::TestCase
   def teardown
   end
 
-  def test_new_basquet_is_empty
+  def test_01_new_basquet_is_empty
     b = Basquet.new
     b.size.should == 0
   end
 
-  def test_zadd_returns_index
+  def test_02_bad_gimme_returns_nil
+    b = Basquet.new
+    b.gimmeAt(1).should == nil
+    b.gimmeAt(-1).should == nil
+  end
+
+  def test_03_zadd_returns_index
     b = Basquet.new
     b.zadd( 'alistair').should == 0
     b.zadd( 'Cockburn').should == 1
@@ -24,7 +30,7 @@ class TestBasquet < Test::Unit::TestCase
   end
 
 
-  def test_gimme_from_nothing_is_empty_array
+  def test_04_gimme_from_nothing_is_empty_array
     b = Basquet.new
     b.gimmeLast(1).should == []
     b.zadd( 'alistair')
@@ -36,7 +42,7 @@ class TestBasquet < Test::Unit::TestCase
   end
 
 
-  def test_gimme_alone_gives_latest_addition
+  def test_05_gimme_alone_gives_latest_addition
   b = Basquet.new
   b.zadd( 'alistair')
   b.zadd( 'alistai')

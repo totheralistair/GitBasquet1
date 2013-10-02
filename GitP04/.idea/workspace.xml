@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdd42d47-2a47-472e-bce3-f5647ac95e8f" name="Default" comment="" />
+    <list default="true" id="fdd42d47-2a47-472e-bce3-f5647ac95e8f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP05/src/n14_req_headers_02.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP05/src/n14_req_headers_asideFromWeb.rb" />
+      <change type="MOVED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP05\test\test_n14_somthing simple.rb" afterPath="$PROJECT_DIR$/../GitP05/test/test_n14_somthing simple_asideWeb.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP05/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP05/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP06/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP06/.idea/workspace.xml" />
+    </list>
     <ignored path="GitP03.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1378882003412" ignored="false" />
+    <file path="/Dummy.txt" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1380655537497" ignored="false" />
     <file path="/env.rb" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1377090826667" ignored="false" />
     <file path="/test1_cuc.feature" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1378817698568" ignored="false" />
     <file path="/webFruits_cuc_steps.rb" changelist="fdd42d47-2a47-472e-bce3-f5647ac95e8f" time="1376935505114" ignored="false" />
@@ -44,10 +50,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.57389164">
       <split-first>
         <leaf>
-          <file leaf-file-name="test1_cuc.feature" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="test1_cuc.feature" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/features/test1_cuc.feature">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="7" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.8320356">
+                <state line="34" column="7" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.8246968">
                   <folding />
                 </state>
               </provider>
@@ -57,10 +63,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="web_cuc_steps.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="web_cuc_steps.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/features/step_definitions/web_cuc_steps.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="76" column="0" selection-start="2447" selection-end="2546" vertical-scroll-proportion="0.68186873">
+                <state line="76" column="0" selection-start="2447" selection-end="2546" vertical-scroll-proportion="0.68467474">
                   <folding />
                 </state>
               </provider>
@@ -103,8 +109,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1740" />
-    <option name="height" value="1080" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1928" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -212,12 +220,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -416,14 +424,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1740" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14761905" sideWeight="0.8654661" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1493576" sideWeight="0.8654661" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -581,14 +589,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/web_cuc_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="2447" selection-end="2546" vertical-scroll-proportion="0.68186873">
+        <state line="76" column="0" selection-start="2447" selection-end="2546" vertical-scroll-proportion="0.68467474">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/test1_cuc.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="7" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.8320356">
+        <state line="34" column="7" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.8246968">
           <folding />
         </state>
       </provider>

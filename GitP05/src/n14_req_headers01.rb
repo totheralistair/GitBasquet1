@@ -25,7 +25,7 @@ get '/addGETRequest/*' do
   out = "addGETRequest request stored at #{addedAt}"
 end
 
-post '/addPOSTRequest' do
+post '/addPzOSTRequest' do
   if request.cookies.empty?
     response.set_cookie( "user_session", :value => "user 123")
   end
