@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP04/src/basquet.rb" afterPath="$PROJECT_DIR$/../GitP04/src/basquet.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP04/src/n13_req_headers01.rb" afterPath="$PROJECT_DIR$/../GitP04/src/n13_req_headers01.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP00wDave/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP00wDave/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP08\src\muffinland_verbs.rb" afterPath="$PROJECT_DIR$/../GitP08/src/muffinland.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP08/src/n15_req_thru_sinatra.rb" afterPath="$PROJECT_DIR$/../GitP08/src/n15_req_thru_sinatra.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP08/test/test_n15_noweb_requests.rb" afterPath="$PROJECT_DIR$/../GitP08/test/test_n15_noweb_requests.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP04/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP04/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP08/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP08/.idea/workspace.xml" />
     </list>
     <ignored path="GitP02.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" time="1377333433991" ignored="false" />
+    <file path="/Dummy.txt" changelist="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" time="1380804438785" ignored="false" />
     <file path="/test_fruit_basquet01.feature" changelist="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" time="1376902417954" ignored="false" />
     <file path="/test_fruit_basquet01_steps.rb" changelist="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" time="1376906909821" ignored="false" />
     <file path="/cuc_web_steps.rb" changelist="c342e9d2-302f-4ddb-9ae6-2b5a51c8fa2c" time="1376912807597" ignored="false" />
@@ -190,16 +190,6 @@
               <option name="myItemId" value="GitP02" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitP02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitP02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -262,12 +252,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GitP00wDave" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -452,7 +442,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16006424" sideWeight="0.34632683" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16220556" sideWeight="0.34632683" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />

@@ -4,6 +4,8 @@ require_relative "basquet"
 myBasquet = Basquet.new
 
 get '/' do
+  puts request.inspect
+
   out = "hello from persistent webBasquet"
   ##$built_response = out
 end
