@@ -31,9 +31,10 @@ class TestRequestsToBasquet < Test::Unit::TestCase
       get "/FRESH_DB"; last_response.body.should == "New basquet w 0 items."
       get "/addGETRequest/broohaha"
       last_response.body.should == "addGETRequest request stored at 0"
-      puts "-3-"
+    #  #puts "-3-"
       get '/getRequestVerbAt/0'
-      puts "3.", last_response.inspect
+    #  #puts "3.", last_response.inspect
+      last_response.body.should == "/addGETRequest/broohahax"
     end
 
 =begin

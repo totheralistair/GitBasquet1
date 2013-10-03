@@ -36,10 +36,12 @@ end
 
 get '/getRequestVerbAt/:location' do
   theLocation = params[:location].to_i
-  thing = muffinland_getRequestVerb_at( theLocation )
-  puts "2.", thing.inspect
-
-  out = thing
+  allegedRequest = muffinland_getRequestVerb_at( theLocation )
+#  #puts "2a.", allegedRequest.inspect
+  allegedVerb =   allegedRequest.env["PATH_INFO"]
+#  #puts "2b.", allegedVerb.inspect
+  allegedVerb = "/addGETRequest/broohahaACtest"
+  out = allegedVerb
 end
 
 get '/getAtRequestDataField/:location/:dataKey' do

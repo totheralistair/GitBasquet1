@@ -30,8 +30,8 @@ end
 
 def muffinland_getRequestVerb_at(location)
   req = $basquet.gimmeAt( location )
-  puts "1.", req.inspect
-  out = req
-  #out = req["PATH_INFO"]
+#  #puts "1.", req.inspect
+  out = req #for now just send the entire retrieved request back
+#  #out = req["PATH_INFO"]
 end
 

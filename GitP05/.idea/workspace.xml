@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc3735b-d1ca-4c1b-bec5-6568f1d04542" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP07/src/muffinland_verbs.rb" afterPath="$PROJECT_DIR$/../GitP07/src/muffinland_verbs.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP07/src/n15_req_thru_sinatra.rb" afterPath="$PROJECT_DIR$/../GitP07/src/n15_req_thru_sinatra.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP07/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP07/.idea/workspace.xml" />
     </list>
     <ignored path="GitP05.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/test_basquet.rb" changelist="7cc3735b-d1ca-4c1b-bec5-6568f1d04542" time="1380720754151" ignored="false" />
     <file path="/test_n14_somthing simple.rb" changelist="7cc3735b-d1ca-4c1b-bec5-6568f1d04542" time="1380652730508" ignored="false" />
     <file path="/web_cuc_steps.rb" changelist="7cc3735b-d1ca-4c1b-bec5-6568f1d04542" time="1378817314977" ignored="false" />
-    <file path="/Dummy.txt" changelist="7cc3735b-d1ca-4c1b-bec5-6568f1d04542" time="1380722672224" ignored="false" />
+    <file path="/Dummy.txt" changelist="7cc3735b-d1ca-4c1b-bec5-6568f1d04542" time="1380789149891" ignored="false" />
     <file path="/test1_cuc.feature" changelist="7cc3735b-d1ca-4c1b-bec5-6568f1d04542" time="1378817698377" ignored="false" />
     <file path="$PROJECT_DIR$/../GitP04/features/test1_cuc.feature" changelist="7cc3735b-d1ca-4c1b-bec5-6568f1d04542" time="1378817707598" ignored="false" />
     <file path="/test_n04_web_request_structure.rb" changelist="7cc3735b-d1ca-4c1b-bec5-6568f1d04542" time="1378820080404" ignored="false" />
@@ -24,6 +26,8 @@
     <file path="/test_n14_somthing simple_asideWeb.rb" changelist="7cc3735b-d1ca-4c1b-bec5-6568f1d04542" time="1380721809595" ignored="false" />
     <file path="/n14_req_headers_asideFromWeb.rb" changelist="7cc3735b-d1ca-4c1b-bec5-6568f1d04542" time="1380721989430" ignored="false" />
     <file path="/n14_req_headers_02.rb" changelist="7cc3735b-d1ca-4c1b-bec5-6568f1d04542" time="1380721688285" ignored="false" />
+    <file path="/muffinland_verbs.rb" changelist="7cc3735b-d1ca-4c1b-bec5-6568f1d04542" time="1380789525487" ignored="false" />
+    <file path="/n15_req_thru_sinatra.rb" changelist="7cc3735b-d1ca-4c1b-bec5-6568f1d04542" time="1380789586561" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +58,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="test_n14_somthing simple_asideWeb.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="test_n14_somthing simple_asideWeb.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/test_n14_somthing simple_asideWeb.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="5" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.3478261">
+                <state line="38" column="5" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.025791325">
                   <folding />
                 </state>
               </provider>
@@ -103,10 +107,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="n14_req_headers_asideFromWeb.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="n14_req_headers_asideFromWeb.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/n14_req_headers_asideFromWeb.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="19" selection-start="74" selection-end="74" vertical-scroll-proportion="0.10296412">
+                <state line="3" column="19" selection-start="74" selection-end="74" vertical-scroll-proportion="0.07173913">
                   <folding />
                 </state>
               </provider>
@@ -146,8 +150,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="960" />
-    <option name="height" value="1080" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1928" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -219,11 +225,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -388,14 +394,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1080" extended-state="0" />
+    <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41" sideWeight="0.72669494" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20877944" sideWeight="0.72669494" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -558,7 +564,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/n14_req_headers_asideFromWeb.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+        <state line="3" column="19" selection-start="74" selection-end="74" vertical-scroll-proportion="0.07173913">
           <folding />
         </state>
       </provider>
@@ -572,7 +578,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_n14_somthing simple_asideWeb.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="5" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.3478261">
+        <state line="38" column="5" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.025791325">
           <folding />
         </state>
       </provider>
