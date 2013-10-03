@@ -18,17 +18,17 @@ class TestRequestsToBasquet < Test::Unit::TestCase
     get "/FRESH_DB"; last_response.body.should == "0"
   end
 
-    def test_02_storing_full_request
-      get "/FRESH_DB"; last_response.body.should == "0"
-      get "/get/broohaha"; last_response.body.should == "0"
-      post '/post', 'acData=oogaPOSTboogo'; last_response.body.should == "1"
-    end
+  def test_02_storing_full_request
+    get "/FRESH_DB"; last_response.body.should == "0"
+    get "/get/broohaha"; last_response.body.should == "0"
+    post '/post', 'acData=oogaPOSTboogo'; last_response.body.should == "1"
+  end
 
-    def test_03_can_extract_path
-      get "/FRESH_DB"; last_response.body.should == "0"
-      get "/get/broohaha"; last_response.body.should == "0"
-      get '/path/0'; last_response.body.should == "/get/broohaha"
-    end
+  def test_03_can_extract_path
+    get "/FRESH_DB"; last_response.body.should == "0"
+    get "/get/broohaha"; last_response.body.should == "0"
+    get '/path/0'; last_response.body.should == "/get/broohaha"
+  end
 
 
 end

@@ -4,32 +4,26 @@ From whatever source, web or not, it expects incoming data to be HTTP requests (
 for now, it is tied to Rack type requests.
 =end
 
-require_relative 'basquet'
-require_relative 'ml_request'
+$requests = Array.new  # yep, that's where they all go!
 
-$requestBasquet = Basquet.newPersistentBasquetPlease
-
-
-# SCARY! Fresh_DB USE ONLY FOR TESTING, NOT PRODUCTION!!
-def ml_fresh_DB
-  $requestBasquet = Basquet.newPersistentBasquetPlease
-  out = $requestBasquet.size.to_s
+def ml_fresh_DB  # SCARY! USE ONLY FOR TESTING, NOT PRODUCTION!!
+  $requests = Array.new
+  out = $requests.size.to_s
 end
 
 def ml_add_request(request)
-  addedAt = $requestBasquet.zadd(request)
-  out = addedAt.to_s
+  $requests.push(request)
+  out = ($requests.size - 1).to_s
 end
 
 def ml_request_at(location)
-  req = $requestBasquet.gimmeAt( location )
+  req = $requests[ location ]
   out = req
 end
 
-def ml_path_at(location)
-  rr = ml_request_at( location ) # in theory, is a Rack request, but who really knows?
-  mlr = MLRequest.new( rr )      # this wrapper just to protect me from Rack one day
-  path = mlr.path
+def ml_request_path_at(location)
+  req = ml_request_at( location ) # in theory, is a Rack request, but who really knows?
+  path = req.env["PATH_INFO"]     # :( Rack dependency
   out = path
 end
 
