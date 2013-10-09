@@ -2,27 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90e073af-9599-4537-b1b8-cec514716e06" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP08\src\basquet.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP08\src\ml_request.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP08\src\n15_req_thru_sinatra.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP08\test\test_basquet.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP08\test\test_ml_request.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP08\test\test_n15_web_requests.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/muffinland.rb" afterPath="$PROJECT_DIR$/src/muffinland.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/n16_req_thru_sinatra.rb" afterPath="$PROJECT_DIR$/src/n16_req_thru_sinatra.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_n16_web_requests.rb" afterPath="$PROJECT_DIR$/test/test_n16_web_requests.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP05/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP05/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP07/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP07/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GitP08.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380830247247" ignored="false" />
+    <file path="/Dummy.txt" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1381328659267" ignored="false" />
     <file path="/temp.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380832105607" ignored="false" />
-    <file path="/muffinland.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380832053598" ignored="false" />
+    <file path="/muffinland.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380997228569" ignored="false" />
     <file path="/n08_webbasquet.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380804659255" ignored="false" />
     <file path="/n15_req_thru_sinatra.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380815413923" ignored="false" />
     <file path="/ml_request.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380814368293" ignored="false" />
-    <file path="/n16_req_thru_sinatra.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380815208223" ignored="false" />
-    <file path="/test_n16_web_requests.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380815034226" ignored="false" />
+    <file path="/n16_req_thru_sinatra.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380996410701" ignored="false" />
+    <file path="/test_n16_web_requests.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1381329032458" ignored="false" />
     <file path="/test_n15_web_requests.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380812178546" ignored="false" />
     <file path="/basquet.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380830357069" ignored="false" />
     <file path="/test_basquet.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380814060763" ignored="false" />
@@ -49,7 +45,7 @@
       <file leaf-file-name="test_n16_web_requests.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_n16_web_requests.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="9" selection-start="210" selection-end="210" vertical-scroll-proportion="0.19130434">
+            <state line="55" column="0" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.8565217">
               <folding />
             </state>
           </provider>
@@ -58,7 +54,7 @@
       <file leaf-file-name="muffinland.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/muffinland.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="7" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,7 +63,7 @@
       <file leaf-file-name="n16_req_thru_sinatra.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/n16_req_thru_sinatra.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,9 +94,9 @@
         <option value="$PROJECT_DIR$/test/test_n15_web_requests.rb" />
         <option value="$PROJECT_DIR$/test/test_ml_request.rb" />
         <option value="$PROJECT_DIR$/src/basquet.rb" />
-        <option value="$PROJECT_DIR$/src/n16_req_thru_sinatra.rb" />
         <option value="$PROJECT_DIR$/src/muffinland.rb" />
         <option value="$PROJECT_DIR$/test/test_n16_web_requests.rb" />
+        <option value="$PROJECT_DIR$/src/n16_req_thru_sinatra.rb" />
       </list>
     </option>
   </component>
@@ -462,18 +458,18 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16809422" sideWeight="0.66386557" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17237687" sideWeight="0.6922269" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33613446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3077731" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -540,6 +536,48 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/test_n16_web_requests.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muffinland.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="36" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/n16_req_thru_sinatra.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_n16_web_requests.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muffinland.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="7" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/n16_req_thru_sinatra.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/muffinland.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="86" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
@@ -563,21 +601,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/muffinland.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="7" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/n16_req_thru_sinatra.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_n16_web_requests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="210" selection-end="210" vertical-scroll-proportion="0.19130434">
+        <state line="55" column="0" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.8565217">
           <folding />
         </state>
       </provider>
