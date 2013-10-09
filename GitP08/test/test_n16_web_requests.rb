@@ -36,18 +36,28 @@ class TestRequestsToBasquet < Test::Unit::TestCase
     get "/dataforat/acData/0"; last_response.body.should == "oogaPOSTboogo"
   end
 
-  def test_cookie_gets_added_if_it_does_not_exist
-    #  SEE MOM, NO COOKIE!
+  def test_04_cookie_gets_added_if_it_does_not_exist
+    #  no cookie to start with
     get "/FRESH_DB"; last_response.body.should == "0"
     post '/post'; last_response.body.should == "0"
     last_response.original_headers["Set-Cookie"].should == "user_session=user+123"
   end
 
-  def test_cookie_found_if_it_already_exists
+  def test_05_cookie_found_if_it_already_exists
     set_cookie "user_session=user 567"
     get "/FRESH_DB";  last_response.body.should == "0"
     get '/get/whatever'; last_response.body.should == "0"
     last_request.cookies.should  == { "user_session" => "user 567"}
+  end
+
+  def test_06_cookie_found_from_previous_request_so_none_returned_in_response
+    # no cookie to start with
+    get "/FRESH_DB";  last_response.body.should == "0"
+    post '/post', 'acData=oogaPOSTboogo'; last_response.body.should == "0"
+    last_response.original_headers["Set-Cookie"].should == "user_session=user+123"
+    get "/dataforat/acData/0"; last_response.body.should == "oogaPOSTboogo"
+    last_request.cookies.should  == { "user_session" => "user 123"}
+    last_response.original_headers["Set-Cookie"].should == nil
   end
 
 
