@@ -3,7 +3,11 @@ From whatever source, web or not, it expects incoming data to be HTTP requests (
 for now, it is tied to Rack type requests.
 =end
 
-$requests = Array.new  # yep, that's where they all go!
+$requests = Array.new
+$sessions = Array.new
+#wee note:     t1 = Time.now.strftime("%Y%m%d%H%M%S%L")
+$muffins = Array.new
+
 
 def ml_fresh_DB  # SCARY! USE ONLY FOR TESTING, NOT PRODUCTION!!
   $requests = Array.new
@@ -12,9 +16,7 @@ end
 
 def ml_add(request)
 # i dont' understand cookies at all.
-  if request.cookies.empty?
-    response.set_cookie( "user_session", :value => "user 123")
-  end
+  if request.cookies.empty? ; response.set_cookie( "user_session", :value => "user 123") ;end
   $requests.push(request)
   out = ($requests.size - 1).to_s
 end

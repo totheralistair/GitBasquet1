@@ -1,43 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90e073af-9599-4537-b1b8-cec514716e06" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP09RackSandBox/.idea/Git09RackSandBox.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP09RackSandBox/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP09RackSandBox/src/hw.ru" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP09RackSandBox/.idea/misc.xml" />
+    <list default="true" id="3ba0299e-414d-4020-8299-bde921dc3494" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/01_rack1_yes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/02_rack2_yes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/03_hw_no.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/03_mywebserverhw_no.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/04_sinatra_sessions1_no.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/05_Sinatra_views_practice01_yes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Git09RackSandBox.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git09RackSandBox/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git09RackSandBox/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git09RackSandBox/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP09RackSandBox/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP09RackSandBox/src/mywebserverhw.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP09RackSandBox/src/rack1.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git09RackSandBox/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP09RackSandBox/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git09RackSandBox/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GitP09RackSandBox/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/muffinland.rb" afterPath="$PROJECT_DIR$/src/muffinland.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_n16_web_requests.rb" afterPath="$PROJECT_DIR$/test/test_n16_web_requests.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/view01_justaview.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/view02_withavar.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/view03_withaniterator.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/view06_showrequest.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/view_404.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/view_500.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP08/src/muffinland.rb" afterPath="$PROJECT_DIR$/../GitP08/src/muffinland.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP08/test/test_n16_web_requests.rb" afterPath="$PROJECT_DIR$/../GitP08/test/test_n16_web_requests.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP05/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP05/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP07/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP07/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP08/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP08/.idea/workspace.xml" />
     </list>
-    <ignored path="GitP08.iws" />
+    <ignored path="Git09RackSandBox.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1381649524825" ignored="false" />
-    <file path="/temp.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1381649679509" ignored="false" />
-    <file path="/muffinland.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1381592364942" ignored="false" />
-    <file path="/n08_webbasquet.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380804659255" ignored="false" />
-    <file path="/n15_req_thru_sinatra.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380815413923" ignored="false" />
-    <file path="/ml_request.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380814368293" ignored="false" />
-    <file path="/n16_req_thru_sinatra.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380996410701" ignored="false" />
-    <file path="/test_n16_web_requests.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1381592489025" ignored="false" />
-    <file path="/test_n15_web_requests.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380812178546" ignored="false" />
-    <file path="/basquet.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380830357069" ignored="false" />
-    <file path="/test_basquet.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380814060763" ignored="false" />
-    <file path="/test_ml_request.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1380814384148" ignored="false" />
-    <file path="/mywebserver.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1381649715213" ignored="false" />
-    <file path="/mywebserverhw.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1381650240438" ignored="false" />
-    <file path="/hw.ru" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1381650644004" ignored="false" />
-    <file path="/rack1.rb" changelist="90e073af-9599-4537-b1b8-cec514716e06" time="1381680740699" ignored="false" />
+    <file path="/Dummy.txt" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382499476346" ignored="false" />
+    <file path="/temp.rb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1381649679645" ignored="false" />
+    <file path="/mywebserver.rb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1381649715213" ignored="false" />
+    <file path="/mywebserverhw.rb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1381650240438" ignored="false" />
+    <file path="/hw.ru" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1381650644004" ignored="false" />
+    <file path="/rack2.rb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382470801628" ignored="false" />
+    <file path="/sinatra_sessions1.rb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382219850310" ignored="false" />
+    <file path="/01rack1.rb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382470919756" ignored="false" />
+    <file path="/02rack2.rb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382471157117" ignored="false" />
+    <file path="/03_hw.ru" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382471431577" ignored="false" />
+    <file path="/05_views_practice01.rb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382471683071" ignored="false" />
+    <file path="/view01.erb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382472444450" ignored="false" />
+    <file path="/05_views_practice01_yes.rb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382478500427" ignored="false" />
+    <file path="/view02.erb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382473091303" ignored="false" />
+    <file path="/view03_withaniterator.erb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382473850776" ignored="false" />
+    <file path="/view_404.erb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382474663183" ignored="false" />
+    <file path="/05_Sinatra_views_practice01_yes.rb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382503736297" ignored="false" />
+    <file path="/view_500.erb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382476069471" ignored="false" />
+    <file path="/view03_showrequest.erb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382478096805" ignored="false" />
+    <file path="/view06_showrequest.erb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382477219386" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,32 +68,68 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="GitP08" />
+    <favorites_list name="Git09RackSandBox" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_n16_web_requests.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_n16_web_requests.rb">
+      <file leaf-file-name="05_Sinatra_views_practice01_yes.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/05_Sinatra_views_practice01_yes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="14" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.052757792">
+            <state line="97" column="0" selection-start="2203" selection-end="2203" vertical-scroll-proportion="0.791716">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="muffinland.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/muffinland.rb">
+      <file leaf-file-name="view06_showrequest.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/view06_showrequest.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="30" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
+            <state line="42" column="19" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="n16_req_thru_sinatra.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/n16_req_thru_sinatra.rb">
+      <file leaf-file-name="view_500.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/view_500.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
+            <state line="12" column="31" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_404.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/view_404.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view03_withaniterator.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/view03_withaniterator.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="222" selection-end="242" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view02_withavar.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/view02_withavar.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view01_justaview.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/view01_justaview.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,16 +153,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/test_n15_noweb_requests.rb" />
-        <option value="$PROJECT_DIR$/test/test_basquet.rb" />
-        <option value="$PROJECT_DIR$/src/ml_request.rb" />
-        <option value="$PROJECT_DIR$/src/n15_req_thru_sinatra.rb" />
-        <option value="$PROJECT_DIR$/test/test_n15_web_requests.rb" />
-        <option value="$PROJECT_DIR$/test/test_ml_request.rb" />
-        <option value="$PROJECT_DIR$/src/basquet.rb" />
-        <option value="$PROJECT_DIR$/src/n16_req_thru_sinatra.rb" />
-        <option value="$PROJECT_DIR$/src/muffinland.rb" />
-        <option value="$PROJECT_DIR$/test/test_n16_web_requests.rb" />
+        <option value="$PROJECT_DIR$/src/01rack1.rb" />
+        <option value="$PROJECT_DIR$/src/02rack2.rb" />
+        <option value="$PROJECT_DIR$/src/03_hw.ru" />
+        <option value="$PROJECT_DIR$/src/05_views_practice01.rb" />
+        <option value="$PROJECT_DIR$/views/view01.erb" />
+        <option value="$PROJECT_DIR$/src/views/view01.erb" />
+        <option value="$PROJECT_DIR$/src/views/view02.erb" />
+        <option value="$PROJECT_DIR$/src/views/view03_withaniterator.erb" />
+        <option value="$PROJECT_DIR$/src/views/view02_withavar.erb" />
+        <option value="$PROJECT_DIR$/src/views/view01_justaview.erb" />
+        <option value="$PROJECT_DIR$/src/05_views_practice01_yes.rb" />
+        <option value="$PROJECT_DIR$/src/views/view_404.erb" />
+        <option value="$PROJECT_DIR$/src/views/view_500.erb" />
+        <option value="$PROJECT_DIR$/src/views/view03_showrequest.erb" />
+        <option value="$PROJECT_DIR$/src/views/view06_showrequest.erb" />
+        <option value="$PROJECT_DIR$/src/05_Sinatra_views_practice01_yes.rb" />
       </list>
     </option>
   </component>
@@ -145,41 +202,49 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitP08" />
+              <option name="myItemId" value="Git09RackSandBox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitP08" />
+              <option name="myItemId" value="Git09RackSandBox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitP08" />
+              <option name="myItemId" value="GitP09RackSandBox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitP08" />
+              <option name="myItemId" value="Git09RackSandBox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitP08" />
+              <option name="myItemId" value="GitP09RackSandBox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,68 +258,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP08\test" />
-      <recent name="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP08\src" />
-      <recent name="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP08" />
+      <recent name="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP09RackSandBox\src\views" />
+      <recent name="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\Git09RackSandBox" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alistair\AlistairCockburn\Ruby\AlistairsProjects\GitBasquet1\GitP09RackSandBox\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_n16_web_requests">
-    <configuration default="false" name="test_n16_web_requests" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="GitP08" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/test_n16_web_requests.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <RunnerSettings RunnerId="RubyDebugRunner" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test_n15_web_requests" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="GitP08" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/test_n15_web_requests.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="n16_req_thru_sinatra" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="GitP08" />
+  <component name="RunManager" selected="Ruby.05_Sinatra_views_practice01_yes">
+    <configuration default="false" name="04_sinatra_sessions1_no" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Git09RackSandBox" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/src" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
@@ -265,60 +278,80 @@
       <EXTENSION ID="JRubyRunConfigurationExtension" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/src/n16_req_thru_sinatra.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/src/04_sinatra_sessions1_no.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="test_basquet" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="GitP08" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
+    <configuration default="false" name="01_rack1_yes" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Git09RackSandBox" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/src" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/test_basquet.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/src/01_rack1_yes.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="test_ml_request" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="GitP08" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
+    <configuration default="false" name="02_rack2_yes" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Git09RackSandBox" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/src" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/test_ml_request.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/src/02_rack2_yes.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="03_hw_no" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Git09RackSandBox" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/src" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/src/03_hw_no.ru" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="05_Sinatra_views_practice01_yes" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Git09RackSandBox" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/src" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/src/05_Sinatra_views_practice01_yes.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -419,19 +452,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_n16_web_requests" />
-      <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_n15_web_requests" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.n16_req_thru_sinatra" />
-      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_basquet" />
-      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_ml_request" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.04_sinatra_sessions1_no" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.01_rack1_yes" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.02_rack2_yes" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.03_hw_no" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.05_Sinatra_views_practice01_yes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_n16_web_requests" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_basquet" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.n16_req_thru_sinatra" />
-        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_ml_request" />
-        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_n15_web_requests" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.05_Sinatra_views_practice01_yes" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.05_Sinatra_views_practice01_yes" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.03_hw_no" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.02_rack2_yes" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.01_rack1_yes" />
       </list>
     </recent_temporary>
   </component>
@@ -455,30 +488,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="90e073af-9599-4537-b1b8-cec514716e06" name="Default" comment="" />
-      <created>1380791282797</created>
-      <updated>1380791282797</updated>
+      <changelist id="3ba0299e-414d-4020-8299-bde921dc3494" name="Default" comment="" />
+      <created>1381649514806</created>
+      <updated>1381649514806</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36666667" sideWeight="0.5180085" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33555555" sideWeight="0.7086864" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48199153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29131356" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838982" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -545,114 +578,96 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/n16_req_thru_sinatra.rb">
+    <entry file="file://$PROJECT_DIR$/src/03_mywebserverhw_no.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/03_hw_no.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="76" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/01_rack1_yes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="10" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/02_rack2_yes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/03_hw_no.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/03_mywebserverhw_no.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="63" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/builder.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="23" selection-start="2731" selection-end="2731" vertical-scroll-proportion="0.024471635" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/04_sinatra_sessions1_no.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/view03_withaniterator.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="222" selection-end="242" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_n16_web_requests.rb">
+    <entry file="file://$PROJECT_DIR$/src/views/view01_justaview.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/muffinland.rb">
+    <entry file="file://$PROJECT_DIR$/src/views/view02_withavar.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/n16_req_thru_sinatra.rb">
+    <entry file="file://$PROJECT_DIR$/src/views/view_404.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_n16_web_requests.rb">
+    <entry file="file://$PROJECT_DIR$/src/views/view_500.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="12" column="31" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/muffinland.rb">
+    <entry file="file://$PROJECT_DIR$/src/views/view06_showrequest.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+        <state line="42" column="19" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/n16_req_thru_sinatra.rb">
+    <entry file="file://$PROJECT_DIR$/src/05_Sinatra_views_practice01_yes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_n16_web_requests.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muffinland.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="7" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/n16_req_thru_sinatra.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muffinland.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="86" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/n16_req_thru_sinatra.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muffinland.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="62" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/n16_req_thru_sinatra.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muffinland.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_n16_web_requests.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="14" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.052757792">
+        <state line="97" column="0" selection-start="2203" selection-end="2203" vertical-scroll-proportion="0.791716">
           <folding />
         </state>
       </provider>

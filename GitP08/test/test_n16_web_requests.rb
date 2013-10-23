@@ -60,6 +60,29 @@ class TestRequestsToBasquet < Test::Unit::TestCase
     last_response.original_headers["Set-Cookie"].should == nil
   end
 
+  def test_07_load_muffin_read_it_later
+    get "/FRESH_DB";  last_response.body.should == "0"
+    post '/post', 'acData=muffin1'; last_response.body.should == "0"
+    post '/post', 'acData=muffin2'; last_response.body.should == "1"
+    get "/dataforat/acData/1"; last_response.body.should == "muffin2"
+  end
+
+  def test_08_what_do_I_want_next?
+    # by test07 we can load and retriev a muffin, cookie comes along. what's next?
+    # scenario:
+    #   i do anything
+    #   the system creates a session tracking me,
+    #     sends back a cookie w age something (31536000 = 1 yr)
+    #   i load a muffin w content
+    #   the system assigns it a number and presents it back to me
+    #   q: does the system stores what it sent back to me? I think so
+    #   i can ask the system for what it sent back to me
+    #
+    #
+
+  end
+
+
 
 end
 
