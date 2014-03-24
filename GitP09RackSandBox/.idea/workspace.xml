@@ -1,39 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ba0299e-414d-4020-8299-bde921dc3494" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/01_rack1_yes.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/02_rack2_yes.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/03_hw_no.ru" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/03_mywebserverhw_no.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/04_sinatra_sessions1_no.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/05_Sinatra_views_practice01_yes.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Git09RackSandBox.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git09RackSandBox/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git09RackSandBox/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git09RackSandBox/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git09RackSandBox/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Git09RackSandBox/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/view01_justaview.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/view02_withavar.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/view03_withaniterator.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/view06_showrequest.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/view_404.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/view_500.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP08/src/muffinland.rb" afterPath="$PROJECT_DIR$/../GitP08/src/muffinland.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP08/test/test_n16_web_requests.rb" afterPath="$PROJECT_DIR$/../GitP08/test/test_n16_web_requests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP05/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP05/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP07/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP07/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GitP08/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GitP08/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3ba0299e-414d-4020-8299-bde921dc3494" name="Default" comment="" />
     <ignored path="Git09RackSandBox.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1382499476346" ignored="false" />
+    <file path="/Dummy.txt" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1385924352150" ignored="false" />
     <file path="/temp.rb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1381649679645" ignored="false" />
     <file path="/mywebserver.rb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1381649715213" ignored="false" />
     <file path="/mywebserverhw.rb" changelist="3ba0299e-414d-4020-8299-bde921dc3494" time="1381650240438" ignored="false" />
@@ -72,10 +43,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="05_Sinatra_views_practice01_yes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="05_Sinatra_views_practice01_yes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/05_Sinatra_views_practice01_yes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="0" selection-start="2203" selection-end="2203" vertical-scroll-proportion="0.791716">
+            <state line="97" column="0" selection-start="2203" selection-end="2203" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03_mywebserverhw_no.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/03_mywebserverhw_no.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="63" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03_hw_no.ru" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/03_hw_no.ru">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.07390817">
               <folding />
             </state>
           </provider>
@@ -173,8 +162,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="960" />
-    <option name="height" value="1080" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1928" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -202,6 +193,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,17 +236,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -495,14 +486,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1080" extended-state="0" />
+    <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33555555" sideWeight="0.7086864" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16595289" sideWeight="0.7086864" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -603,16 +594,6 @@
         <state line="26" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/03_hw_no.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/03_mywebserverhw_no.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="63" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/builder.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="93" column="23" selection-start="2731" selection-end="2731" vertical-scroll-proportion="0.024471635" />
@@ -667,7 +648,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/05_Sinatra_views_practice01_yes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="0" selection-start="2203" selection-end="2203" vertical-scroll-proportion="0.791716">
+        <state line="97" column="0" selection-start="2203" selection-end="2203" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/03_mywebserverhw_no.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="63" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/03_hw_no.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.07390817">
           <folding />
         </state>
       </provider>
